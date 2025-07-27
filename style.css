@@ -1,0 +1,87 @@
+
+.outfit{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+body{
+    text-decoration: none;
+    border-color: none;
+}
+#CONTAINER{
+    border: 2px solid black; /*border*/
+    margin: auto;
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    transition: 500ms linear;
+}
+.SUBC1{ 
+    /*border: 4px solid red; /*border*/
+    background: rgb(133, 133, 133);
+    width: 45%;
+    height: 100%;
+    justify-items: center;
+}
+.SUBC2{
+    /*border: 4px solid red; /*border*/
+    width: 55%;
+    height: 100%;
+    justify-items: center;
+}
+.PIC_NAME{
+    /*border: 4px solid red; /*border*/
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.PICTURE, img{
+    /*border: 2px solid red; /*border*/
+    border-radius: 50%;
+    transition: 300ms ease;
+}
+.PICTURE:hover{
+    transform: scale(0.9);
+    background-color: black;
+}
+img{
+    /*border: 2px solid red; /*border*/
+    margin: auto;
+    display: block;
+}
+img:hover{
+    opacity: 50%;
+}
+.NAME{
+    /*border: 2px solid red; /*border*/
+    margin: auto;
+}
+.INTRO, .CONTENT{
+    /*border: 2px solid red; /*border*/
+    width: 90%;
+}
+h1,h2,h3,h4,li,p{
+    font-family: Outfit;
+    font-weight: 400;
+    /*border: 2px solid goldenrod; /*border*/
+}
+@media screen and (max-width: 620px){
+#CONTAINER{
+    width: 90%;
+    display: flex;
+    flex-direction:column;
+}
+.SUBC1{
+    width: 100%;
+    height: 55%;
+    background: none;
+}
+.SUBC2{
+    width: 100%;
+    height: 45%;
+}
+}
