@@ -66,7 +66,7 @@ img:hover{
 h1,h2,h3,h4,ul,li,p{
     font-family: Outfit;
     font-weight: 400;
-    list-style-type: none;
+    list-style-type: square;
     /*border: 2px solid goldenrod; /*border*/
 }
 @media screen and (max-width: 620px){
